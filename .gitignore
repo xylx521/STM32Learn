@@ -1,22 +1,33 @@
 # 编译生成目录
 Listings/
-Object/
+Objects/
+# 编译中间文件
 *.o
 *.d
 *.elf
 *.map
 *.hex
 *.bin
+# 编译生成的最终文件
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
 
 # IDE 相关配置
 *.uvoptx
 *.uvprojx
+*.uvgui.*
+*.uvguix*
 *.dep
 *.sdf
 *.suo
 *.user
 *.DS_Store
 *.log
+
+
 
 # 不上传的临时测试文件夹
 DebugConfig/
